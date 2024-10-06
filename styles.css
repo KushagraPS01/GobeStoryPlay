@@ -1,0 +1,63 @@
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(54, 135, 160);
+    margin: 20;
+    padding: 10;
+}
+
+h2{
+    color: #850a91;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+header {
+    border-radius: 10px;
+    background-color: rgb(18, 16, 14);
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+video{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+.logo {
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.tabs {
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+}
+
+.tabs li {
+    margin-right: 1rem;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: #b9d698;
+    transition: color 0.3s;
+}
+
+.tabs a:hover {
+    color: #ff0000; 
+}
+
